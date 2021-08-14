@@ -1,0 +1,175 @@
+/* Title part  */
+
+body {
+    margin: 0;
+    background-color: #028090;
+}
+#titlepart {
+
+    padding: 3rem;
+    background-color: #05668d;
+    text-align: center;
+    position: sticky;
+}
+.title {
+    font-family: "Josefin Sans";
+    color: #f0f3bd;
+    font-size: 3rem;
+    
+}
+
+.cse {
+    cursor: pointer;
+}
+.subtitle {
+    font-family: 'Rock Salt', cursive;
+    color: darkblue;
+}
+
+/* Content Part */
+
+#contentpart {
+    background-color: #05668d;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.revealbtn {
+    color: #f0f3bd;
+    border-color: #f0f3bd;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.revealbtn:hover {
+    background-color: #028090;
+    border-color: #028090;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* time table part */
+
+
+#showoption {
+
+    background-color: #028090;
+    text-align: center;
+    
+}
+
+
+
+table {
+    position: relative;
+    width: 95%;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    
+    
+}
+
+table, th, td {
+    border: 1px solid #028090;
+}
+th {
+    width: 3.5rem;
+    height: 4.5rem;
+}
+tr {
+    background-color: #05668d;
+}
+td:hover {
+    background-color: #028090;
+}
+
+
+
+
+
+
+/* Subjects Part  */
+
+.subjectgrid {
+    margin-top: 4rem;
+    text-align: center;
+    padding-bottom: 4rem;
+    
+} 
+
+.row {
+    justify-content: center;
+}
+.card {
+    margin: 2rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    border-color:darkblue;
+    border-width: 2px;
+    background-color: #05668d;
+    
+}
+
+.subname {
+    background-color: #05668d;
+    border-radius: 3px 3px 0px 0px;
+    border-color: #028090;
+    color: #f0f3bd;
+    padding: 2rem;
+}
+
+.subteach {
+    background-color:darkcyan;
+    padding: 2rem;
+    color: #f0f3bd;
+}
+
+.subabv {
+    background-color: #028090;
+    color: #f0f3bd;
+    padding: 2rem;
+}
+
+.subcode {
+    background-color: #05668d;
+    color: #f0f3bd;
+    padding: 1rem;
+    
+}
+
+
+/* Card Animation part */
+
+.card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+/* Footer part */
+
+.footerpart {
+    text-align: center;
+    
+    padding: 1rem;
+    color: #f0f3bd;
+}
+
+.bottomtext {
+    padding: 2rem;
+    font-family: 'Rock Salt', cursive;
+}
+
+.hiddenclass {
+    
+    display: none;
+}
+
+
