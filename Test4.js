@@ -18,4 +18,3 @@ $(".btn2").click (function () {
     $(".subjectgrid").removeClass("hiddenclass");
 });
 
-alert("CHANGE LOG: \nNow you can join a class directly by clicking\nthe subject name from the time table.\nSubject details will be updated later.\n Thanks for visiting...");
